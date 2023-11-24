@@ -1,0 +1,35 @@
+.missionh1 {
+  text-align: center;
+  font-size: 64px;
+  font-family: "Oswald";
+  font-weight: 500;
+  color: #000000;
+}
+
+.introdivmission {
+  margin: 1rem;
+  width: 40%;
+}
+
+.intropmission {
+  font-size: 20px;
+  margin-bottom: 2rem;
+  font-family: "Raleway";
+  color: #000000;
+}
+
+.flexcontainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 950px) {
+  .flexcontainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .introdivmission {
+    width: 80%;
+  }
+}

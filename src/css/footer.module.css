@@ -1,0 +1,24 @@
+.anylink:hover {
+  color: #0082b3;
+}
+
+@media screen and (max-width: 930px) {
+  .footermain {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.footerp {
+  max-width: 350px;
+  font-size: 25px;
+  margin-left: 2rem;
+  margin-right: 5rem;
+}
+
+@media screen and (max-width: 1500px) {
+  .footerp {
+    font-size: 20px;
+  }
+}

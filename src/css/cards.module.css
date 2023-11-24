@@ -1,0 +1,43 @@
+.missioncard {
+  background-color: #579978;
+  width: 38%;
+  padding-top: 3rem;
+  color: #fff;
+}
+
+.missioncardh1 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  text-align: left;
+}
+
+.missioncardp {
+  font-size: 25px;
+  margin-bottom: 3rem;
+  font-weight: 400;
+  font-family: "Raleway";
+}
+
+@media (max-width: 600px) {
+  .missioncardp {
+    font-size: 20px;
+  }
+}
+
+.cardcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 950px) {
+  .cardcontainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .missioncard {
+    width: 80%;
+  }
+}

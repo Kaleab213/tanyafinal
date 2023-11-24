@@ -1,0 +1,75 @@
+.anylink:hover {
+  color: #0082b3;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 764px) {
+  .intro {
+    margin-top: 3rem;
+  }
+}
+
+.introimg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem;
+  width: 40%;
+}
+
+.introdiv {
+  margin: 1rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 1190px) and (min-width: 948px) {
+  .introdiv {
+    width: 60%;
+  }
+}
+
+.introh1 {
+  font-size: 64px;
+  font-family: "Oswald";
+  font-weight: 500;
+  color: #000000;
+}
+
+.introbtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.introp {
+  font-size: 20px;
+  margin-bottom: 2rem;
+  font-family: "Raleway";
+  color: #000000;
+}
+
+@media screen and (max-width: 950px) {
+  .intro {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .introdiv {
+    width: 80%;
+  }
+  .introimg {
+    width: 60%;
+  }
+  .introh1 {
+    text-align: center;
+  }
+}
