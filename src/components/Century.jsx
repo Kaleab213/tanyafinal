@@ -10,7 +10,9 @@ const Century = () => {
   return (
     <div className={style.introend}>
       <div className={style.introdivend}>
-        <h1 className={style.centuryh1}>Honing 21st century education</h1>
+        <h1 className="flex font-[oswald] text-[40px] xs:text-[50px] sm:text-[64px] font-[500] text-[#000]">
+          Honing 21st century education
+        </h1>
         <motion.p
           initial={{
             y: 0,

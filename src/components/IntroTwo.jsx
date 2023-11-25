@@ -26,7 +26,9 @@ const IntroTwo = () => {
           }}
           className={style.introh1}
         >
-          <span>Creative leadership</span>
+          <span className="font-[oswald] text-[40px] xs:text-[50px] sm:text-[64px] font-[500] text-[#000]">
+            Creative leadership
+          </span>
         </motion.h1>
         <motion.p
           initial={{
@@ -45,7 +47,7 @@ const IntroTwo = () => {
               delay: 0.1,
             },
           }}
-          className={style.introp}
+          className={`${style.introp} text-[16px] sm:text-[20px]`}
         >
           ea commodo consequat. Duis aute irure dolor in reprehenderit in
           voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
@@ -69,30 +71,13 @@ const IntroTwo = () => {
               delay: 0.1,
             },
           }}
-          className={style.introp}
+          className={`${style.introp} text-[16px] sm:text-[20px]`}
         >
           ea commodo consequat. Duis aute irure dolor in reprehenderit in
           voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
           sint occaecat cupidatat non proident, sunt in culpa qui officia
           deserunt mollit anim id est laborum
         </motion.p>
-        <div className={style.introbtn}>
-          <button
-            style={{
-              width: "140px",
-              height: "48px",
-              fontSize: "24px",
-              fontWeight: "800",
-              fontFamily: "Raleway",
-              color: "#ffffff",
-              borderRadius: "10px",
-            }}
-            className={style.gradientcolor}
-            onClick={handleClick}
-          >
-            Read More
-          </button>
-        </div>
       </div>
       <motion.div
         initial={{
@@ -109,7 +94,7 @@ const IntroTwo = () => {
         }}
         className={style.introimg}
       >
-        <img src={imagee} alt="" className="w-[524px] h-[508px]" />
+        <img src={imagee} alt="" />
       </motion.div>
     </div>
   );

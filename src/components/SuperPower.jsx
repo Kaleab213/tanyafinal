@@ -8,7 +8,8 @@ import ParallelTexts from "./parallelTexts";
 
 const SuperPower = () => {
   return (
-    <div style={{ marginBottom: "7rem", marginTop: "7rem" }}>
+    // <div style={{ marginBottom: "7rem", marginTop: "7rem" }}>
+    <div className="mt-[2rem] sm:mb-[2rem] sm:mt-[3rem]">
       <motion.h1
         className={style.missionh1}
         initial={{

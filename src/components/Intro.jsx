@@ -9,7 +9,7 @@ const Intro = () => {
     window.location.href = "/about";
   };
   return (
-    <div className={style.intro}>
+    <div className={`${style.intro} `}>
       <motion.div
         initial={{
           x: 200,
@@ -25,9 +25,9 @@ const Intro = () => {
         }}
         className={style.introimg}
       >
-        <img src={imagee} alt="" className="w-[524px] h-[508px]" />
+        <img src={imagee} alt="" className="" />
       </motion.div>
-      <div className={style.introdiv}>
+      <div className={`${style.introdiv} sm:w-[50%]`}>
         <motion.h1
           initial={{
             x: -200,
@@ -93,23 +93,6 @@ const Intro = () => {
           sint occaecat cupidatat non proident, sunt in culpa qui officia
           deserunt mollit anim id est laborum
         </motion.p>
-        <div className={style.introbtn}>
-          <button
-            style={{
-              width: "140px",
-              height: "48px",
-              fontSize: "24px",
-              fontWeight: "800",
-              fontFamily: "Raleway",
-              color: "#ffffff",
-              borderRadius: "10px",
-            }}
-            className={style.gradientcolor}
-            onClick={handleClick}
-          >
-            Read More
-          </button>
-        </div>
       </div>
     </div>
   );
